@@ -196,3 +196,40 @@
   </tbody>
 </table>
 
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>temporal down-sampling rate</th>
+      <th>F2F</th>
+      <th>F2M</th>
+      <th>M2F</th>
+      <th>M2M</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>1</td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursox-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursox-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursox-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+    
