@@ -232,4 +232,32 @@
   </tbody>
 </table>
 
+<table align="center">
+  <thead>
+    <tr>
+      <th>temporal down-sampling rate</th>
+      <th>F2F</th>
+      <th>F2M</th>
+      <th>M2F</th>
+      <th>M2M</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>w/o</td>
+      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-f_mpol_20_123_to_f_biaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-f_mpol_20_123_to_m_biaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-m_zhiy_123_to_f_biaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-m_zhiy_123_to_m_biaobei.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>w</td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_mpol_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_mpol_20_123_to_mbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-m_zhiy_14_123_to_mbiaobei.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
     
