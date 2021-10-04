@@ -16,8 +16,19 @@ Singing voice conversion (SVC) converts a singer's voice to another one's voice 
 | Female| <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/f_biaobei_002_01.wav"></audio> |
 | Male  | <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/m_biaobei_093_0001.wav"></audio> |
 
+#### Source Singers
+| Target   | Samples  |
+|  ----  | ----  |
+| F1| <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/f_biaobei_002_01.wav"></audio> |
+| F2  | <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/m_biaobei_093_0001.wav"></audio> |
+| M1  | <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/m_biaobei_093_0001.wav"></audio> |
+| M2  | <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/m_biaobei_093_0001.wav"></audio> |
 #### Comparison with Baseline Systems
 
-
+| Systems|F1|F2|M1|M2|
+|----|----|----|----|----|
+|BASE1|||||
+|BASE2|||||
+|Ours|||||
 #### Ablation 
 
