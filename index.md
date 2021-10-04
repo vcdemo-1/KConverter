@@ -82,7 +82,7 @@
 
 #### Comparison with Baseline Systems
 
-##### Target female
+##### Target Female
 
 
 <table align="center">
@@ -98,40 +98,65 @@
   <tbody>
    <tr>
       <td>BASE1</td>
-      <!--td><audio controls="" preload="auto">
-            <source src="vae_kl/vaekl-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td-->
-      <td><audio controls="" preload="auto">
-            <source src="vae_kl/vaekl-f_mpol_20_123_to_fbiaobei.wav"></audio></td>
-      <td><audio controls="" preload="auto">
-            <source src="vae_kl/vaekl-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto">
-            <source src="vae_kl/vaekl-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-f_mpol_20_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
     </tr>
     <tr>
       <td>BASE2</td>
-      <!--td><audio controls="" preload="auto">
-            <source src="spk_pitch_confusion/confusion-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td-->
-      <td><audio controls="" preload="auto">
-            <source src="spk_pitch_confusion/confusion-f_mpol_20_123_to_fbiaobei.wav"></audio></td>
-      <td><audio controls="" preload="auto">
-            <source src="spk_pitch_confusion/confusion-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto">
-            <source src="spk_pitch_confusion/confusion-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-f_mpol_20_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
     </tr>
     <tr>
       <td>Ours</td>
-      <!--td><audio controls="" preload="auto">
-            <source src="ours/oursox-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td-->
-      <td><audio controls="" preload="auto">
-            <source src="ours/oursox-f_mpol_123_to_fbiaobei.wav"></audio></td>
-      <td><audio controls="" preload="auto">
-            <source src="ours/oursox-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto">
-            <source src="ours/oursox-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_mpol_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
     </tr>
   </tbody>
 </table>
 ----
+##### Target Male
 
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>System</th>
+      <th>F1</th>
+      <th>F2</th>
+      <th>M1</th>
+      <th>M2</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>BASE1</td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-f_mpol_20_123_to_mbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-m_zhiy_14_123_to_mbiaobei.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>BASE2</td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-f_mpol_20_123_to_mbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-m_zhiy_14_123_to_mbiaobei.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>Ours</td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_mpol_20_123_to_mbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-m_zhiy_14_123_to_mbiaobei.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+----
 #### Ablation 
 
