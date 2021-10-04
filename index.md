@@ -32,24 +32,14 @@
   </thead>
   <tbody>
     <tr>
-      <td>F1</td>
+      <td>Female</td>
       <td><audio controls="" preload="auto">
             <source src="target_waves/f_biaobei_002_01.wav"></audio></td>
-    </tr>
-    <tr>
-      <td>F2</td>
-      <td><audio controls="" preload="auto">
-            <source src="target_waves/f_wangzhangqin_1015_165_010.wav"></audio></td>
     </tr>
     <tr>
       <td>M1</td>
       <td><audio controls="" preload="auto">
             <source src="target_waves/m_biaobei_093_0001.wav"></audio></td>
-    </tr>
-    <tr>
-      <td>M2</td>
-      <td><audio controls="" preload="auto">
-            <source src="target_waves/m_wangzhihong_1028_870_001.wav"></audio></td>
     </tr>
   </tbody>
 </table>
@@ -66,32 +56,82 @@
   </thead>
   <tbody>
     <tr>
-      <td>Female</td>
+      <td>F1</td>
       <td><audio controls="" preload="auto">
-            <source src="target_waves/f_biaobei_002_01.wav"></audio></td>
+            <source src="target_waves/f_wangchenrui_1021_500_002.wav"></audio></td>
     </tr>
     <tr>
-      <td>Male</td>
+      <td>F2</td>
       <td><audio controls="" preload="auto">
-            <source src="target_waves/m_biaobei_093_0001.wav"></audio></td>
+            <source src="target_waves/f_mpol_20_123.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>M1</td>
+      <td><audio controls="" preload="auto">
+            <source src="target_waves/m_wuduo_1028_766_018.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>M2</td>
+      <td><audio controls="" preload="auto">
+            <source src="target_waves/m_zhiy_14_123.wav"></audio></td>
     </tr>
   </tbody>
 </table>
 ----
 
-#### Source Singers
-| Target   | Samples  |
-|  ----  | ----  |
-| F1| <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/f_biaobei_002_01.wav"></audio> |
-| F2  | <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/m_biaobei_093_0001.wav"></audio> |
-| M1  | <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/m_biaobei_093_0001.wav"></audio> |
-| M2  | <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/m_biaobei_093_0001.wav"></audio> |
+
 #### Comparison with Baseline Systems
 
-| Systems|F1|F2|M1|M2|
-|----|----|----|----|----|
-|BASE1|||||
-|BASE2|||||
-|Ours|||||
+##### Target female
+
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>System</th>
+      <th>F1</th>
+      <th>F2</th>
+      <th>M1</th>
+      <th>M2</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>BASE1</td>
+      <!--td><audio controls="" preload="auto">
+            <source src="vae_kl/vaekl-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td-->
+      <td><audio controls="" preload="auto">
+            <source src="vae_kl/vaekl-f_mpol_20_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="vae_kl/vaekl-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="vae_kl/vaekl-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>BASE2</td>
+      <!--td><audio controls="" preload="auto">
+            <source src="spk_pitch_confusion/confusion-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td-->
+      <td><audio controls="" preload="auto">
+            <source src="spk_pitch_confusion/confusion-f_mpol_20_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="spk_pitch_confusion/confusion-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="spk_pitch_confusion/confusion-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>Ours</td>
+      <!--td><audio controls="" preload="auto">
+            <source src="ours/oursox-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td-->
+      <td><audio controls="" preload="auto">
+            <source src="ours/oursox-f_mpol_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="ours/oursox-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="ours/oursox-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+----
+
 #### Ablation 
 
