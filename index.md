@@ -160,3 +160,38 @@
 ----
 #### Ablation 
 
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Feature Representation</th>
+      <th>MEL80</th>
+      <th>MFCC20</th>
+      <th>+Aug</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>MEL80</td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-f_mpol_20_123_to_mbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="vae_kl/vaekl-m_zhiy_14_123_to_mbiaobei.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>MFCC20</td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-f_mpol_20_123_to_mbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="spk_pitch_confusion/confusion-m_zhiy_14_123_to_mbiaobei.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>+Aug</td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_mpol_20_123_to_mbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-m_zhiy_14_123_to_mbiaobei.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
