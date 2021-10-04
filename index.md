@@ -210,24 +210,24 @@
   <tbody>
    <tr>
       <td>1</td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursox-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-f_mpol_20_123_to_f_biaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-f_mpol_20_123_to_m_biaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-m_zhiy_123_to_f_biaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-m_zhiy_123_to_m_biaobei.wav"></audio></td>
     </tr>
     <tr>
       <td>8</td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursox-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_mpol_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_mpol_20_123_to_mbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-m_zhiy_14_123_to_mbiaobei.wav"></audio></td>
     </tr>
     <tr>
       <td>32</td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursox-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="mel2mel_ours/mel2mel-oursrc-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr32/freq32-oursox-f_mpol_20_123_to_f_biaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr32/freq32-oursox-f_mpol_20_123-to-m_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr32/freq32-oursox-m_zhiy_123_to_f_biaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="tdr32/freq32-oursox-m_zhiy_123_to_m_biaobei.wav"></audio></td>
     </tr>
   </tbody>
 </table>
