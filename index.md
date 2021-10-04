@@ -22,10 +22,62 @@
 ### Audio Samples
 
 #### Target Singers
-| Target   | Samples  |
-|  ----  | ----  |
-| Female| <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/f_biaobei_002_01.wav"></audio> |
-| Male  | <audio id="audio" controls="" preload="none"><source id="wav" src="https://github.com/vcdemo-1/KConverter/blob/gh-pages/target_waves/m_biaobei_093_0001.wav"></audio> |
+---
+<table>
+  <thead>
+    <tr>
+      <th>Target</th>
+      <th>Samples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>F1</td>
+      <td><audio controls="" preload="auto">
+            <source src="target_waves/f_biaobei_002_01.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>F2</td>
+      <td><audio controls="" preload="auto">
+            <source src="target_waves/f_wangzhangqin_1015_165_010.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>M1</td>
+      <td><audio controls="" preload="auto">
+            <source src="target_waves/m_biaobei_093_0001.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>M2</td>
+      <td><audio controls="" preload="auto">
+            <source src="target_waves/m_wangzhihong_1028_870_001.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+----
+
+#### Source Singers
+---
+<table>
+  <thead>
+    <tr>
+      <th>Target</th>
+      <th>Samples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Female</td>
+      <td><audio controls="" preload="auto">
+            <source src="target_waves/f_biaobei_002_01.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>Male</td>
+      <td><audio controls="" preload="auto">
+            <source src="target_waves/m_biaobei_093_0001.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+----
 
 #### Source Singers
 | Target   | Samples  |
