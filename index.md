@@ -197,11 +197,11 @@
 </table>
 
 ----
-
+Ablation of the temporal down-sampling rate
 <table align="center">
   <thead>
     <tr>
-      <th>temporal down-sampling rate</th>
+      <th></th>
       <th>F2F</th>
       <th>F2M</th>
       <th>M2F</th>
@@ -234,10 +234,17 @@
 </table>
 ----
 
+Ablation of the content consistency loss
+
+source female
+<audio controls="" preload="auto"><source src="target_waves/f_pmar_11_123.wav"></audio>
+source male
+<audio controls="" preload="auto"><source src="target_waves/m_wenzihao_1013_8_022.wav"></audio>
+      
 <table align="center">
   <thead>
     <tr>
-      <th>temporal down-sampling rate</th>
+      <th></th>
       <th>F2F</th>
       <th>F2M</th>
       <th>M2F</th>
@@ -247,17 +254,17 @@
   <tbody>
    <tr>
       <td>w/o</td>
-      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-f_mpol_20_123_to_f_biaobei.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-f_mpol_20_123_to_m_biaobei.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-m_zhiy_123_to_f_biaobei.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="tdr1/freq1-oursox-m_zhiy_123_to_m_biaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="content_consitency_loss/noct_f_pmar_to_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="content_consitency_loss/noct_f_pmar_to_mbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="content_consitency_loss/noct-m_wenzihao_1013_8_022.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="content_consitency_loss/noct-m_wenzihao_1013_8_022.npy-to-m_biaobei_gen.wav"></audio></td>
     </tr>
     <tr>
       <td>w</td>
-      <td><audio controls="" preload="auto"><source src="ours/oursox-f_mpol_123_to_fbiaobei.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="ours/oursox-f_mpol_20_123_to_mbiaobei.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="ours/oursox-m_zhiy_14_123_to_fbiaobei.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="ours/oursox-m_zhiy_14_123_to_mbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="content_consitency_loss/oursox-f_pmar_11_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="content_consitency_loss/oursox-m_pmar_11_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="content_consitency_loss/oursox-m_wenzihao_1013_8_022.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="content_consitency_loss/oursox-m_wenzihao_1013_8_022.npy-to-m_biaobei_gen.wav"></audio></td>
     </tr>
   </tbody>
 </table>
