@@ -39,7 +39,7 @@
             <source src="target_waves/f_biaobei_002_01.wav"></audio></td>
     </tr>
     <tr>
-      <td>Male<v/td>
+      <td>Male</td>
       <td><audio controls="" preload="auto">
             <source src="target_waves/m_biaobei_093_0001.wav"></audio></td>
     </tr>
