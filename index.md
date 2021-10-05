@@ -1,5 +1,3 @@
-
-
 # <center> K-Converter: An unsupervised singing Voice Conversion System</center>
 <center>Ying Zhang, Peng Yang, Ye Bai, Jinba Xiao, Hao Che, Xiaorui Wang</center><br>
 <center>Kwai, Beijing, P.R. China</center> 
@@ -84,7 +82,7 @@
 
 <br>
 
-### Comparison with Baseline Systems
+## Comparison with Baseline Systems
 
 **Target Female**
 
@@ -165,7 +163,7 @@
 ---
 <br>
 
-### Ablation 
+## Ablation 
 
 **Ablation of the feature representation**
 <table align="center">
