@@ -1,6 +1,9 @@
 
 
-# K-Converter: An unsupervised singing Voice Conversion System
+# <center> K-Converter: An unsupervised singing Voice Conversion System</center>
+<center>Ying Zhang, Peng Yang, Ye Bai, Jinba Xiao, Hao Che, Xiaorui Wang</center><br>
+<center>Kwai, Beijing, P.R. China</center> 
+<br>
 
 ## Abstract
 <div style="text-align: justify"> Singing voice conversion (SVC) converts a singer's voice to another one's voice while preserving the linguistic content. Recently, some SVC systems rely on super-vised phonetic features extracted from pre-trained automatic speech recognition (ASR) models, increasing system complexity. Some end-to-end SVC systems use adver-sarial training, which causes instability during optimization. To address these issues, we present K-Converter, a simple system to disentangle the timbre, pitch, and content information without any manual supervision or adversarial training. First, low quefrencies of mel-frequency cepstral coefficients (MFCC), which remove the global excitation mainly, are used as input representation. And the pitch-shift augmentation is used for further disentangling the pitch. Second, an encoder network is carefully designed to construct an information bottleneck, which learns to break up the pitch and timbre information of the source. Third, the content consistency loss is introduced to keep the content consistent between encoder outputs of source utterances and reconstructed ones. Experimental results show that our proposed system performs well in both speech naturalness and timbre similarity, with better robustness to comparisons. </div>
@@ -79,10 +82,11 @@
 </table>
 ----
 
+<br>
 
 ### Comparison with Baseline Systems
 
-#### Target Female
+**Target Female**
 
 
 <table align="center">
@@ -120,7 +124,8 @@
   </tbody>
 </table>
 ----
-#### Target Male
+
+**Target Male**
 
 
 <table align="center">
@@ -158,9 +163,11 @@
   </tbody>
 </table>
 ----
+<br>
+
 ### Ablation 
 
-
+**Ablation of the feature representation**
 <table align="center">
   <thead>
     <tr>
@@ -197,7 +204,7 @@
 </table>
 
 ----
-Ablation of the temporal down-sampling rate
+**Ablation of the temporal down-sampling rate**
 <table align="center">
   <thead>
     <tr>
@@ -234,14 +241,14 @@ Ablation of the temporal down-sampling rate
 </table>
 ----
 
-Ablation of the content consistency loss
+**Ablation of the content consistency loss**
 
-----
-source female
+
+\* *source female*
 <audio controls="" preload="auto"><source src="target_waves/f_pmar_11_123.wav"></audio>
-source male
+\* *source male*
 <audio controls="" preload="auto"><source src="target_waves/m_wenzihao_1013_8_022.wav"></audio>
-----  
+
 <table align="center">
   <thead>
     <tr>
