@@ -243,9 +243,9 @@
 **Ablation of the content consistency loss**
 
 
-\* *source female*
+\** source female*
 <audio controls="" preload="auto"><source src="target_waves/f_pmar_11_123.wav"></audio>
-\* *source male*
+\** source male*
 <audio controls="" preload="auto"><source src="target_waves/m_wenzihao_1013_8_022.wav"></audio>
 
 <table align="center">
