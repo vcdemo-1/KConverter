@@ -24,8 +24,8 @@
 
 ## Audio Samples
 
-### Target Singers
----
+**Target Singers**
+
 <table>
   <thead>
     <tr>
@@ -46,14 +46,14 @@
     </tr>
   </tbody>
 </table>
-----
-
-### Source Singers
 ---
+
+**Source Singers**
+
 <table>
   <thead>
     <tr>
-      <th>Target</th>
+      <th>Source</th>
       <th>Samples</th>
     </tr>
   </thead>
@@ -80,7 +80,7 @@
     </tr>
   </tbody>
 </table>
-----
+---
 
 <br>
 
@@ -123,7 +123,7 @@
     </tr>
   </tbody>
 </table>
-----
+---
 
 **Target Male**
 
@@ -162,7 +162,7 @@
     </tr>
   </tbody>
 </table>
-----
+---
 <br>
 
 ### Ablation 
@@ -203,7 +203,7 @@
   </tbody>
 </table>
 
-----
+---
 **Ablation of the temporal down-sampling rate**
 <table align="center">
   <thead>
@@ -239,7 +239,7 @@
     </tr>
   </tbody>
 </table>
-----
+---
 
 **Ablation of the content consistency loss**
 
