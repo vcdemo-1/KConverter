@@ -24,6 +24,7 @@
 
 **Target Singers**
 
+---
 <table>
   <thead>
     <tr>
