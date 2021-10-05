@@ -269,7 +269,7 @@
     <tr>
       <td>w</td>
       <td><audio controls="" preload="auto"><source src="content_consitency_loss/oursox-f_pmar_11_fbiaobei.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="content_consitency_loss/oursox-m_pmar_11_fbiaobei.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="content_consitency_loss/oursox-f_pmar_11_mbiaobei.wav"></audio></td>
       <td><audio controls="" preload="auto"><source src="content_consitency_loss/oursox-m_wenzihao_1013_8_022.npy-to-f_biaobei_gen.wav"></audio></td>
       <td><audio controls="" preload="auto"><source src="content_consitency_loss/oursox-m_wenzihao_1013_8_022.npy-to-m_biaobei_gen.wav"></audio></td>
     </tr>
