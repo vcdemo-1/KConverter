@@ -195,7 +195,7 @@
     <tr>
       <td>+Aug</td>
       <td><audio controls="" preload="auto"><source src="ours/oursox-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
-      <td><audio controls="" preload="auto"><source src="ours/oursox-f_wangchenrui_1021_500_002.npy-to-f_biaobei_gen.wav"></audio></td>
+      <td><audio controls="" preload="auto"><source src="ours/oursox-f_wangchenrui_1021_500_002.npy-to-m_biaobei_gen.wav"></audio></td>
       <td><audio controls="" preload="auto"><source src="ours/oursox-m_wuduo_1028_766_018.npy-to-f_biaobei_gen.wav"></audio></td>
       <td><audio controls="" preload="auto"><source src="ours/oursox-m_wuduo_1028_766_018.npy-to-m_biaobei_gen.wav"></audio></td>
     </tr>
