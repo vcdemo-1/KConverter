@@ -1,5 +1,5 @@
 # <center> K-Converter: An unsupervised singing Voice Conversion System</center>
-<center>Ying Zhang, Peng Yang, Ye Bai, Jinba Xiao, Hao Che, Xiaorui Wang</center><br>
+<center>Ying Zhang, Peng Yang, Jinba Xiao, Ye Bai, Hao Che, Xiaorui Wang</center><br>
 <center>Kwai, Beijing, P.R. China</center> 
 <br>
 
